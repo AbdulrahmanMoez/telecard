@@ -37,7 +37,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-admin_ids_str = os.environ.get("ADMIN_IDS", "2021167403")
+admin_ids_str = os.environ.get("ADMIN_IDS", "")
 logger.info(f"Raw ADMIN_IDS env var: '{admin_ids_str}'")
 ADMIN_IDS = []
 if admin_ids_str:
@@ -46,7 +46,7 @@ if admin_ids_str:
     except Exception as e:
         logger.error(f"Error parsing admin IDs: {e}")
 logger.info(f"Parsed admin IDs: {ADMIN_IDS}")
-BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", "7550571748:AAEI1U87lUmn1uQdTkRq5DRZNgt1x6qo0eE")
+BOT_TOKEN = os.environ.get("ADMIN_BOT_TOKEN", ":")
 # Look for the database in the parent directory first (where main.py would create it)
 PARENT_DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "cards.db")
 # If the database exists in the parent directory, use it; otherwise, use the local path
