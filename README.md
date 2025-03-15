@@ -1,4 +1,4 @@
-# 🎮 Telegram Card Forwarder Bot
+# ⚡ Telegram Card Forwarder Bot
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/)
 [![Telethon](https://img.shields.io/badge/telethon-latest-orange.svg)](https://github.com/LonamiWebs/Telethon)
