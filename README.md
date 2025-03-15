@@ -2,6 +2,11 @@
 
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/)
 [![Telethon](https://img.shields.io/badge/telethon-latest-orange.svg)](https://github.com/LonamiWebs/Telethon)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 A powerful and intelligent Telegram bot system for monitoring, extracting, and forwarding prepaid card information across channels with automated provider detection and unit extraction.
 
