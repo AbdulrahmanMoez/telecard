@@ -25,10 +25,10 @@ logger = logging.getLogger(__name__)
 
 # Load environment variables
 load_dotenv()
-API_ID = int(os.getenv('TELEGRAM_API_ID', '28110628'))
-API_HASH = os.getenv('TELEGRAM_API_HASH', '5e8fa6b7ee85ab1539fa664ba5422bf8')
-SESSION_NAME = os.getenv('TELEGRAM_SESSION_NAME', 'Deploy')
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyBMOoAxdgbzU2bOew3DuuRYOI_6gU_iU04')
+API_ID = int(os.getenv('TELEGRAM_API_ID', ''))
+API_HASH = os.getenv('TELEGRAM_API_HASH', '')
+SESSION_NAME = os.getenv('TELEGRAM_SESSION_NAME', '')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 GEMINI_MODEL = "gemini-2.0-flash-thinking-exp-01-21"
 
 # SQLite database setup
