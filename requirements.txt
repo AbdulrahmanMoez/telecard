@@ -1,0 +1,19 @@
+# Core dependencies
+python-telegram-bot
+telethon
+python-dotenv
+ratelimit
+
+# Data handling
+numpy
+matplotlib
+
+# System monitoring
+psutil
+
+# Google AI
+google-generativeai
+
+# Standard library modules used (no need to install):
+# os, re, json, sqlite3, logging, asyncio, datetime, typing, 
+# io, sys, socket, fcntl, struct, signal, functools, time, threading, atexit, traceback
