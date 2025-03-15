@@ -1,6 +1,5 @@
 # 🎮 Telegram Card Forwarder Bot
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7%2B-green.svg)](https://www.python.org/)
 [![Telethon](https://img.shields.io/badge/telethon-latest-orange.svg)](https://github.com/LonamiWebs/Telethon)
 
@@ -152,9 +151,6 @@ The admin bot provides the following commands:
 | `/restart` | Restart the main bot with updated settings |
 | `/status` | Check the system status and performance metrics |
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
